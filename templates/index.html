@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Classification</title>
+  </head>
+  <body>
+    <h1>Image Classification</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" />
+      <input type="submit" value="결과보기" />
+    </form>
+    {% if result %}
+    <h2>Classification Result:</h2>
+    <p>Predicted Class: {{ result['class'] }}</p>
+    <img
+      src="data:image/png;base64,{{ result['image_base64'] }}"
+      alt="Predicted Image"
+    />
+    {% endif %}
+  </body>
+</html>
