@@ -22,3 +22,20 @@
 - 해운대 달맞이길
 - 해운대 동백섬
 - 해운대해수욕장
+
+</br>
+<b> ✔️ index.html 파일을 통해 임시로 확인 가능 </b> 
+</br>
+
+<pre><code>{python server.py}</code></pre>
+
+</br>
+<b> 1. 파일 업로드 </b>
+</br>
+
+![image](https://github.com/Plassebo/Plassebo-AI/assets/113760409/f98a5ac7-e38b-4687-bbed-9b6a04bb78a8)
+
+</br>
+<b> 2. 파일 업로드 후 결과보기 버튼 클릭 </b>
+
+![image](https://github.com/Plassebo/Plassebo-AI/assets/113760409/46d7af56-97ef-4153-8554-ab48eb80d56c)
