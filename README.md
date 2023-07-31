@@ -27,7 +27,7 @@
 <b> ✔️ index.html 파일을 통해 임시로 확인 가능 </b> 
 </br>
 
-<pre><code>{python server.py}</code></pre>
+<pre><code>python server.py</code></pre>
 
 </br>
 <b> 1. 파일 업로드 </b>
